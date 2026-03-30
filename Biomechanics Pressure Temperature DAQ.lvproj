@@ -13,6 +13,9 @@
 		<Item Name="Controls" Type="Folder">
 			<Item Name="UI References.ctl" Type="VI" URL="../Controls/UI References.ctl"/>
 		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Enable UI.vi" Type="VI" URL="../SubVIs/Enable UI.vi"/>
+		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
