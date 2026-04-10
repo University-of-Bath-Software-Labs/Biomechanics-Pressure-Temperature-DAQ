@@ -12,25 +12,40 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="App Data.ctl" Type="VI" URL="../Controls/App Data.ctl"/>
+			<Item Name="Temperature Calibration Array.ctl" Type="VI" URL="../Controls/Temperature Calibration Array.ctl"/>
+			<Item Name="Temperature Calibration.ctl" Type="VI" URL="../Controls/Temperature Calibration.ctl"/>
 			<Item Name="UI References.ctl" Type="VI" URL="../Controls/UI References.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Enable UI.vi" Type="VI" URL="../SubVIs/Enable UI.vi"/>
 			<Item Name="Initialise Front Panel.vi" Type="VI" URL="../SubVIs/Initialise Front Panel.vi"/>
 			<Item Name="Loop Error Stop.vi" Type="VI" URL="../SubVIs/Loop Error Stop.vi"/>
+			<Item Name="Parse Serial Data.vi" Type="VI" URL="../SubVIs/Parse Serial Data.vi"/>
+			<Item Name="Temperature Conversion.vi" Type="VI" URL="../SubVIs/Temperature Conversion.vi"/>
+		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Check Serial Parsing --Unit Test.vi" Type="VI" URL="../Tests/Check Serial Parsing --Unit Test.vi"/>
+			<Item Name="Check Temperature Conversion --Unit Test.vi" Type="VI" URL="../Tests/Check Temperature Conversion --Unit Test.vi"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
+			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="Event Messenger-c(str,var).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Event Messenger-c(str,var).lvlib"/>
+			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
+			<Item Name="Stream-c(dbl,dbl,dbl,dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(dbl,dbl,dbl,dbl).lvlib"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
