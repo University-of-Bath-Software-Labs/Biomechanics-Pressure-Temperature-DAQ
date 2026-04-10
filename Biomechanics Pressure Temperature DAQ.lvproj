@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="App Data.ctl" Type="VI" URL="../Controls/App Data.ctl"/>
+			<Item Name="Temperature Calibration.ctl" Type="VI" URL="../Controls/Temperature Calibration.ctl"/>
 			<Item Name="UI References.ctl" Type="VI" URL="../Controls/UI References.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
@@ -19,6 +20,7 @@
 			<Item Name="Initialise Front Panel.vi" Type="VI" URL="../SubVIs/Initialise Front Panel.vi"/>
 			<Item Name="Loop Error Stop.vi" Type="VI" URL="../SubVIs/Loop Error Stop.vi"/>
 			<Item Name="Parse Serial Data.vi" Type="VI" URL="../SubVIs/Parse Serial Data.vi"/>
+			<Item Name="Temperature Conversion.vi" Type="VI" URL="../SubVIs/Temperature Conversion.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Check Serial Parsing --Unit Test.vi" Type="VI" URL="../Tests/Check Serial Parsing --Unit Test.vi"/>
