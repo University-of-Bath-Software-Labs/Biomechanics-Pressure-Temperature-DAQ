@@ -24,6 +24,7 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Check Serial Parsing --Unit Test.vi" Type="VI" URL="../Tests/Check Serial Parsing --Unit Test.vi"/>
+			<Item Name="Check Temperature Conversion --Unit Test.vi" Type="VI" URL="../Tests/Check Temperature Conversion --Unit Test.vi"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
