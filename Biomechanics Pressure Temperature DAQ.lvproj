@@ -18,6 +18,7 @@
 			<Item Name="Enable UI.vi" Type="VI" URL="../SubVIs/Enable UI.vi"/>
 			<Item Name="Initialise Front Panel.vi" Type="VI" URL="../SubVIs/Initialise Front Panel.vi"/>
 			<Item Name="Loop Error Stop.vi" Type="VI" URL="../SubVIs/Loop Error Stop.vi"/>
+			<Item Name="Parse Serial Data.vi" Type="VI" URL="../SubVIs/Parse Serial Data.vi"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
