@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="App Data.ctl" Type="VI" URL="../Controls/App Data.ctl"/>
+			<Item Name="Temperature Calibration Array.ctl" Type="VI" URL="../Controls/Temperature Calibration Array.ctl"/>
 			<Item Name="Temperature Calibration.ctl" Type="VI" URL="../Controls/Temperature Calibration.ctl"/>
 			<Item Name="UI References.ctl" Type="VI" URL="../Controls/UI References.ctl"/>
 		</Item>
