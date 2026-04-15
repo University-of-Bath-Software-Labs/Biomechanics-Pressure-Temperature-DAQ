@@ -16,6 +16,9 @@
 			<Item Name="Temperature Calibration.ctl" Type="VI" URL="../Controls/Temperature Calibration.ctl"/>
 			<Item Name="UI References.ctl" Type="VI" URL="../Controls/UI References.ctl"/>
 		</Item>
+		<Item Name="Icons" Type="Folder">
+			<Item Name="Biomechamics DAQ Icon.ico" Type="Document" URL="../Icons/Biomechamics DAQ Icon.ico"/>
+		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Create File.vi" Type="VI" URL="../SubVIs/Create File.vi"/>
 			<Item Name="Enable UI.vi" Type="VI" URL="../SubVIs/Enable UI.vi"/>
