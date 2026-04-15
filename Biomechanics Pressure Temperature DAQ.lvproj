@@ -54,6 +54,51 @@
 			<Item Name="Stream-c(dbl,dbl,dbl,dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(dbl,dbl,dbl,dbl).lvlib"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="PTA EXE" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{461D7BC9-8408-4BB9-8012-CCFAC682BF24}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{113117E6-0838-45B4-A1D4-6F489BC9474E}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F607F207-8903-461C-BF08-667B924205D8}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">PTA EXE</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{BC076B6B-E4F4-4E5C-B0EB-758E8B669AD0}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">PTA.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/PTA.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/Biomechamics DAQ Icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F72175E5-CFDD-4BAD-95C5-5F2930FD1A0E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of Bath</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">PTA EXE</Property>
+				<Property Name="TgtF_internalName" Type="Str">PTA EXE</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 University of Bath</Property>
+				<Property Name="TgtF_productName" Type="Str">PTA EXE</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{6A807C90-8F94-463D-9BAF-92A3472DBF49}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">PTA.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
