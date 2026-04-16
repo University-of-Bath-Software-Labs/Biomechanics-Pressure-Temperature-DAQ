@@ -175,6 +175,7 @@
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">21018006</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Bath</Property>
+				<Property Name="MSI_arpURL" Type="Str">https://github.com/University-of-Bath-Software-Labs</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_bannerImageID" Type="Ref">/My Computer/Icons/University of Bath banner.bmp</Property>
 				<Property Name="MSI_distID" Type="Str">{1B116983-7B50-40C1-85F8-49B4C065A105}</Property>
