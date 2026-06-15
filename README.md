@@ -56,6 +56,28 @@ To run the built application, you will need:
 3. **Run the program**  
    Click the **Run** arrow in LabVIEW.
 
+## How to run (Built Application)
+
+1. **Open the LabVIEW project**  
+   Open the project file:  
+   `Biomechanics Pressure Temperature DAQ.lvproj`
+
+2. **Open the main VI**  
+   In the Project Explorer, expand:  
+   `Build Specifications`
+
+3. **Build PTA EXE**
+   Right click and select build on:
+   `PTA EXE`
+
+4. **Build location**  
+   The build will be located in:
+   `C:\Pressure Temperature Acquisition App`
+
+5. **Run PTA.exe**  
+   Open the application:
+   `PTA.exe`
+
 ## How to use the application
 
 ### 1) Select the serial port
